@@ -48,3 +48,28 @@ Create a javascript file for webpack entry: [src/main.js](src/main.js)
 ```javascript
 console.log('webpack tutorial');
 ```
+
+## 4. bundle test
+
+Run the command to bundle on development mode.
+
+```bash
+$ webpack --mode development
+```
+
+<details>
+
+<summary>Example output:</summary>
+
+```
+Hash: 5203e04c8d2976e5b59f
+Version: webpack 4.10.2
+Time: 84ms
+Built at: 2018-05-30 22:13:51
+    Asset     Size  Chunks             Chunk Names
+bundle.js  3.8 KiB    main  [emitted]  main
+Entrypoint main = bundle.js
+[./src/main.js] 33 bytes {main} [built]
+```
+
+</details>
