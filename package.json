@@ -1,0 +1,25 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "📥 Step by step webpack tutorial",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "webpack --watch --progress --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senhungwong/webpack-tutorial.git"
+  },
+  "author": "Sen Hung Wong <0x53656e@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senhungwong/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/senhungwong/webpack-tutorial#readme"
+}

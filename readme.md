@@ -73,3 +73,30 @@ Entrypoint main = bundle.js
 ```
 
 </details>
+
+## 5. initialize npm package
+
+Use the command to create [package.json](package.json)
+
+```bash
+$ npm init
+```
+
+Edit the following to enable bundle command.
+
+```json
+"scripts": {
+    "dev": "webpack --watch --progress --mode development",
+    "build": "webpack --mode production"
+}
+```
+
+Use the following commands to run dev and build prod.
+
+```bash
+$ npm run dev # run dev
+```
+
+```bash
+$ npm run build # build bundled file
+```
